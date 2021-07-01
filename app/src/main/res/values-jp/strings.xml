@@ -1,0 +1,503 @@
+<resources>
+    <string name="app_name">Status</string>
+    <string name="app_desc">Una barra de estado al estilo material design. No necesita root.</string>
+
+    <string name="action_settings">設定</string>
+    <string name="action_setup">設定</string>
+    <string name="action_access_grant">Grant Access</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_ok">Ok</string>
+    <string name="action_more">Más</string>
+    <string name="action_add_apps">Añadir aplicaciones</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_about">Acerca de</string>
+    <string name="action_play">Play Store</string>
+    <string name="action_website">Web</string>
+    <string name="action_libraries">Explorar licencias</string>
+    <string name="action_enable">Activar</string>
+    <string name="action_disable">Desactivar</string>
+    <string name="action_reset">Reiniciar</string>
+    <string name="action_tutorial">Reiniciar tutorial</string>
+    <string name="action_pick_image_color">Elige un color de la imagen</string>
+    <string name="action_community">Foro de ayuda</string>
+    <string name="action_dismiss">Rechazar</string>
+    <string name="action_add_style">Añadir estilo</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_edit_style">Editar estilo del icono</string>
+    <string name="action_policy">Politica de privacidad</string>
+    <string name="action_new_backup">Nueva copia de seg.</string>
+    <string name="action_save">セイブ</string>
+    <string name="action_delete_backup">Eliminar esta copia de seg.</string>
+    <string name="action_restore_backup">Restaurar esta copia de seg.</string>
+    <string name="action_save_backup">Sobrescribir copia de seg.</string>
+    <string name="action_create_backup">Crear copia de seg.</string>
+    <string name="action_hide_status">Ocultar Status</string>
+    <string name="action_show_status">Mostrar Status</string>
+    <string name="action_app_settings">Ajustes de aplicación</string>
+    <string name="action_set_color">Colocar color</string>
+
+    <string name="reset_all">Reiniciar todo</string>
+    <string name="notifications_disable">Desactivar todas las notificaciones</string>
+    <string name="notifications_enable">Activar todas las notificaciones</string>
+
+    <string name="prompt_name">Introduce el nombre…</string>
+    <string name="prompt_backup_name">Nombre de la copia</string>
+
+    <string name="error_no_text_name">Introduce un nombre…</string>
+    <string name="error_name_exists">Ya existe un elemento con este nombre.</string>
+    <string name="error_missing_icons">Te faltan iconos por establecer.</string>
+
+    <string name="service_name">Servicio de Status</string>
+    <string name="service_name_general">Servicio de accesibilidad</string>
+    <string name="service_desc">Es necesario activar el \'servicio de Status\' para detectar los cambios y que se reflejen de forma actualizada en la barra de notificaciones. En algunos dispositivos, será necesario deslizar hasta la parte inferior de la pantalla antes de que se pueda ver.</string>
+
+    <string name="notifications_compat">Modo compatibilidad</string>
+    <string name="notifications_compat_desc">Algunos dispositivos Android no pueden usar la API de notificaciones estándar para mostrar los iconos. He encontrado una forma de que se puedan mostrar a través del servicio de accesibilidad, pero no se puede detectar cuando una notificación se rechaza. Por lo tanto, se eliminan todas las notificaciones al abrir el panel de notificaciones. Si no te gusta esto, puedes intentar actualizar tu firmware o desactivar las notificaciones desde el menú de ajustes. Recuerda: estos cambios en el menú de ajustes pueden generar problemas con los iconos de notificación en algunos dispositivos. Se recomienda no activar esta opción en versiones de Android superiores a Lollipop.</string>
+
+    <string name="service_start_stop">Servicio de la barra de estado</string>
+
+    <string name="notification_name">Acceso de notificaciones</string>
+    <string name="notification_desc">La aplicación necesita leer las notificaciones entrantes para poder mostrar los iconos en la barra de estado.</string>
+
+    <string name="permissions_name">Permisos adicionales</string>
+    <string name="permissions_desc">Esta aplicación necesita varios permisos adicionales para acceder a a todas las partes relevantes del dispositivo. Puedes encontrar una explicación más extensa acerca de esto en la página de Status en Play Store.</string>
+
+    <string name="optimizations_name">Ignorar las optimizaciones de batería</string>
+    <string name="optimizations_desc">Las optimizaciones de batería harán que Status deje de funcionar, ya que el sistema cerrará Status para ahorrar batería. Es necesario desactivar esto para que Status funcione correctamente.</string>
+
+    <string name="overlay_name">Capas superpuestas</string>
+    <string name="overlay_desc">La aplicación necesita permiso para establecer capas y ventanas de forma superpuesta en la pantalla, permitiendo que se muestren las notificaciones en la barra de estado.</string>
+
+    <string name="tab_settings">Ajustes</string>
+    <string name="tab_icons">Iconos</string>
+    <string name="tab_apps">アプリ</string>
+    <string name="tab_help">Ayuda</string>
+
+    <string name="preference_show_clock">Mostrar reloj</string>
+    <string name="preference_24h">Usar formato 24 horas</string>
+    <string name="preference_24h_desc">El reloj mostrará la hora en formato 24 horas si activas esto.</string>
+    <string name="preference_ampm">Usar formato AM/PM</string>
+    <string name="preference_ampm_desc">El reloj mostrará la hora en formato AM/PM si activas esto.</string>
+    <string name="preference_date">Mostrar la fecha</string>
+    <string name="preference_date_desc">El reloj mostrará la fecha junto a la hora si activas esto.</string>
+    <string name="preference_show_notifications">Mostrar notificaciones</string>
+    <string name="preference_heads_up">Mostrar superposiciones</string>
+    <string name="preference_heads_up_desc">Las notificaciones \'aparecerán\' en la parte superior de la pantalla al ser recibidas.</string>
+    <string name="preference_heads_up_duration">Duración de superposiciones (seg.)</string>
+    <string name="preference_heads_up_duration_desc">Establece la cantidad de tiempo que aparece la notificación en la barra al ser recibida.</string>
+    <string name="preference_battery_percent">Mostrar porcentaje de batería</string>
+    <string name="preference_battery_percent_desc">Muestra el porcentaje de la batería junto al icono de la barra de estado.</string>
+    <string name="preference_bar_color_auto">Color de la barra automático</string>
+    <string name="preference_bar_color_auto_desc">Adopta el color de la aplicación actual en la barra de estado. Esto puede reducir el rendimiento, según el dispositivo.</string>
+    <string name="preference_bar_color_chooser">Color de la barra estándar</string>
+    <string name="preference_app_colors">Color de la barra personalizado</string>
+    <string name="preference_app_colors_desc">Establece un color para utilizarse en una pantalla específica. Esto se sobrepondrá ante cualquier otra opción si el \'color de la barra automático\' está activado.</string>
+    <string name="preference_transparent_home">Transparencia en la pantalla de inicio</string>
+    <string name="preference_transparent_home_desc">Esta opción establece el fondo de la barra de estado de forma transparente al estar en la pantalla de inicio. Esta opción no funciona correctamente en los fondos de pantalla animados o si está activada la función de deslizamiento del fondo de pantalla.</string>
+    <string name="preference_dark_icons">Contraste de color de iconos</string>
+    <string name="preference_dark_icons_desc">Ajusta el color de los iconos para evitar que se queden invisibles o sea complicado verlos en el fondo de pantalla.</string>
+    <string name="preference_tinted_icons">Iconos tintados</string>
+    <string name="preference_tinted_icons_desc">Cambia el color de los iconos en lugar del fondo de la barra, que se pondrá en el color predeterminado.</string>
+    <string name="preference_show_battery_icon">Mostrar icono de batería</string>
+    <string name="preference_icon_style">Estilo de icono</string>
+    <string name="preference_show_network_icon">Mostrar icono de red</string>
+    <string name="preference_network_icon">Estilo del icono de red</string>
+    <string name="preference_dual_sim">SIM doble</string>
+    <string name="preference_dual_sim_desc">Si tu dispositivo tiene más de una tarjeta SIM, esta opción mostrará los dos indicadores de cobertura.</string>
+    <string name="preference_data">Mostrar conexión de datos</string>
+    <string name="preference_data_desc">Muestra la conexión de datos, ya sea 2G, 3G, 4G o no haya.</string>
+    <string name="preference_show_wifi_icon">Mostrar icono de WiFi</string>
+    <string name="preference_wifi_icon">Estilo del icono WiFi</string>
+    <string name="preference_show_gps_icon">Mostrar icono de GPS</string>
+    <string name="preference_gps_icon">Estilo del icono de GPS</string>
+    <string name="preference_show_bluetooth_icon">Mostrar icono Bluetooth</string>
+    <string name="preference_bluetooth_icon">Estilo del icono de Bluetooth</string>
+    <string name="preference_show_airplane_mode_icon">Mostrar icono de modo avión</string>
+    <string name="preference_airplane_mode_icon">Estilo del icono de modo avión</string>
+    <string name="preference_show_alarm_icon">Mostrar icono de alarma</string>
+    <string name="preference_alarm_icon">Estilo del icono de la alarma</string>
+    <string name="preference_show_ringer_icon">Mostrar icono de tono</string>
+    <string name="preference_ringer_icon">Estilo del icono de tono</string>
+    <string name="preference_icon_padding">Relleno horizontal (dp)</string>
+    <string name="preference_icon_scale">Tamaño de iconos (dp)</string>
+    <string name="preference_text_size">Tamaño de texto (sp)</string>
+    <string name="preference_color_notification">Color de notificaciones personalizado</string>
+    <string name="preference_color_notification_desc">La aplicación mostrará las notificaciones con el color de la aplicación si no se encuentra el color especificado.</string>
+    <string name="preference_gravity">Alineamiento</string>
+    <string name="preference_background_animations">Animaciones de color de fondo</string>
+    <string name="preference_background_animations_desc">Esta opción te permite activar o desactivar la animación del color de fondo de la barra de estado. Esto puede reducir el rendimiento, según el dispositivo.</string>
+    <string name="preference_icon_animations">Animaciones de iconos</string>
+    <string name="preference_icon_animations_desc">Esta opción te permite activar o desactivar la animación de los iconos. Esto puede reducir drásticamente el rendimiento, según el dispositivo y la cantidad de iconos que se mustren al mismo tiempo.</string>
+    <string name="preference_show_drawable">Mostrar/Ocultar iconos</string>
+    <string name="preference_show_text">Mostrar texto</string>
+    <string name="preference_notification_icon_size">Tamaño de iconos de notificación</string>
+    <string name="preference_time_format">Formato de hora</string>
+    <string name="preference_heads_up_layout">Estilo de notificaciones</string>
+    <string name="preference_default_color_icon">Color de iconos por defecto</string>
+    <string name="preference_hide_on_volume">Ocultar la barra al cambiar el volumen</string>
+    <string name="preference_hide_on_volume_desc">Esta opción establece la respuesta de la barra de estado ante el uso de los botones de volumen. Si la ventana de niveles de sonido no se superpone con la barra, esta opción no es necesaria. Esto puede no funcionar en algunos dispositivos.</string>
+    <string name="preference_debug">Mensajes de depuración</string>
+    <string name="preference_debug_desc">Muestra información detallada acerca de los cambios de ventanas.</string>
+    <string name="preference_status_color">Color principal</string>
+    <string name="preference_fullscreen">Ocultar barra</string>
+    <string name="preference_notifications">Notificaciones</string>
+    <string name="preference_persistent_notification">Mostrar notificaciones persistentes</string>
+    <string name="preference_persistent_notification_desc">Esto mantiene el servicio de Status en primer plano para que no se cierre automáticamente, como motivo de ahorro de batería. Al desactivar esto, puede aumentar el rendimiento, pero puede costar problemas de estabilidad en algunos dispositivos.</string>
+    <string name="preference_backups">Copiar/Restaurar ajustes</string>
+    <string name="preference_backups_desc">Te permite hacer una copia de seguridad o restaurar todos los ajustes de Status como un archivo de texto.</string>
+    <string name="preference_burnin_protection">Protección antiquemaduras</string>
+    <string name="preference_burnin_protection_desc">Impide que Status provoque quemaduras en algunas pantallas, moviendo los iconos cada dos segundos.</string>
+
+    <string name="icon_notifications">Notificaciones</string>
+    <string name="icon_clock">Re</string>
+    <string name="icon_battery">Icono de batería</string>
+    <string name="icon_network">Icono de red</string>
+    <string name="icon_data">Indicador de datos</string>
+    <string name="icon_wifi">Icono de WiFi</string>
+    <string name="icon_bluetooth">Icono de Bluetooth</string>
+    <string name="icon_gps">Icono de GPS</string>
+    <string name="icon_airplane">Icono de modo avión</string>
+    <string name="icon_alarm">Icono de alarma</string>
+    <string name="icon_ringer">Icono de tono</string>
+    <string name="icon_nfc">Icono NFC</string>
+    <string name="icon_headphone">Icono de auriculares</string>
+    <string name="icon_carrier">Nombre</string>
+    <string name="icon_orientation">Orientación de icono</string>
+
+    <string name="heads_up_plain">Liso</string>
+    <string name="heads_up_card">Tarjeta</string>
+    <string name="heads_up_condensed">Condensado</string>
+    <string name="heads_up_transparent">Transparente</string>
+
+    <string name="gravity_center">Centro</string>
+    <string name="gravity_left">Izquierda</string>
+    <string name="gravity_right">Derecha</string>
+
+    <string name="notification_color">Establecer color personalizado</string>
+    <string name="notification_color_desc">Si Status no puede encontrar una un color para la aplicación, se recurrirá al color por defecto. Puedes especificar un color pulsando en esta notificación.</string>
+
+    <string name="unit_seconds">" segundos"</string>
+
+    <string name="icon_style_android">Android</string>
+    <string name="icon_style_default">Por defecto</string>
+    <string name="icon_style_stock">Básico</string>
+    <string name="icon_style_circle">Circular</string>
+    <string name="icon_style_circle_outline">Contorno circular</string>
+    <string name="icon_style_classic">Clásico</string>
+    <string name="icon_style_clear">Limpio</string>
+    <string name="icon_style_clip">Clip</string>
+    <string name="icon_style_curved">Recortado</string>
+    <string name="icon_style_outline">Bordeado</string>
+    <string name="icon_style_dish">Resaltado</string>
+    <string name="icon_style_triangle">Triangular</string>
+    <string name="icon_style_square">Cuadrado</string>
+    <string name="icon_style_retro">Retro</string>
+    <string name="icon_style_pixel">Pixelado</string>
+    <string name="icon_style_balloon">Globo aerostático</string>
+    <string name="icon_style_radial">Radial</string>
+    <string name="icon_style_tap">Toque</string>
+    <string name="icon_style_school">Escuela</string>
+    <string name="icon_style_system">Sistema</string>
+
+    <string name="tutorial_enable">Activa la barra de Status</string>
+    <string name="tutorial_enable_desc">El interruptor de la parte superior de la pantalla permite activar o desactivar la barra personalizada. ¡Actívalo y pruébalo!</string>
+    <string name="tutorial_search">¿Buscas algo?</string>
+    <string name="tutorial_search_desc">Busca el ajuste exacto que quieres cambiar desde la barra de búsqueda de Status.</string>
+    <string name="tutorial_help">¿Necesitas ayuda?</string>
+    <string name="tutorial_help_desc">La sección de ayuda siempre se actualizar y contiene casi todos los problemas encontrados por otros usuarios.</string>
+    <string name="tutorial_image_picker">Selector de color de imagen</string>
+    <string name="tutorial_image_picker_desc">¿No consigues el color correcto? ¡Intenta seleccionarlo en una imagen!</string>
+    <string name="tutorial_icon_switch">¿No quieres un icono?</string>
+    <string name="tutorial_icon_switch_desc">Activa o desactiva un icono pulsando en la casilla junto al nombre.</string>
+    <string name="tutorial_icon_order">Reorganizar iconos</string>
+    <string name="tutorial_icon_order_desc">Cambia el orden de los iconos pulsando los botones de arriba y abajo, junto al nombre.</string>
+    <string name="tutorial_activities">¿No quieres modificar toda la aplicación?</string>
+    <string name="tutorial_activities_desc">Cambia entre pantallas individuales haciendo clci en el botón de \'expandir\', junto al nombre de la aplicación.</string>
+
+    <string name="red">赤</string>
+    <string name="green">緑</string>
+    <string name="blue">Azul</string>
+
+    <string name="hint_format">
+        \n
+        h - Horas\n
+        HH - Horas (24h)\n
+        kk - Horas (24h)\n
+        mm - Minutos\n
+        a - AM/PM\n
+        Z - Zona horaria\n
+        \n
+        dd - Día del mes\n
+        EEE - Día de la semana\n
+        MM - Mes (numérico)\n
+        MMM - \n
+        yyyy - 年
+    </string>
+
+    <string name="empty">Aquí no hay nada…</string>
+    <string name="reset_apps_confirm">¿Seguro que quieres reiniciar todas las preferencias específicas? Esta acción no se puede deshacer.</string>
+
+    <string name="james_desc">Desarrollador de Android y comedor de coles profesional.</string>
+
+    <string name="anas_desc">Más conocido como el señor de las Oreo, este tío puede añadir más leña a las interfaces cargadas.</string>
+
+    <string name="vuk_desc">El señor supremo de la estilización Material Design, se dedica a los iconos y todas esas cosas.</string>
+
+    <string name="ghost_desc">Diseñador gráfico y web, además es propietario de technologx.com.</string>
+
+    <string name="about_translators">Traductores</string>
+
+    <string name="ryo_desc">Traduct Japanese por j1PH.</string>
+
+    <string name="about_icons">Fuente de iconos</string>
+    <string name="about_icons_desc">Obviamente, sería difícil crear los más de 100 iconos que usa esta aplicación, así que esta aplicación usa iconos de distintas fuentes.</string>
+
+    <string name="google_icons_desc">La mayoría de iconos pertenecen a Google Design, que contiene una gran base de datos de iconos entre los que elegir.</string>
+
+    <!--<string name="md_icons">Iconos de estilo Material Design</string>-->
+    <string name="md_icons_desc">Están creados por distintos colaborades, esta colección de iconos contiene varios recursos que no están disponibles en Google Design.</string>
+
+    <string-array name="libraries">
+        <item>
+            <a href="https://github.com/bumptech/glide">Glide</a>
+            <i> - BSD, parte MIT y Apache 2.0</i>
+            <p>\nGlide es un framework de administración de archivos multimedia y subida de imágenes para Android que engloba el cifrado multimedia, la memoria y los cambios de disco, así como los recursos, en una interfaz de uso simple y sencilla.</p>
+        </item>
+        <item>
+            <a href="https://github.com/drozdzynski/Steppers">Steppers</a>
+            <i> - Apache 2.0</i>
+            <p>\nSteppers es una biblioteca de guías material design para Android.</p>
+        </item>
+        <item>
+            <a href="https://github.com/afollestad/async">Async</a>
+            <i> - Apache 2.0</i>
+            <p>\nAsync es una biblioteca diseñada para llevar a cabo la ejecución de procesos en Android fácilmente.</p>
+        </item>
+        <item>
+            <a href="https://github.com/google/gson">Gson</a>
+            <i> - Apache 2.0</i>
+            <p>\nGson es una biblioteca Java que puede utilizarse para convertir elementos Java en representaciones JSON.</p>
+        </item>
+    </string-array>
+    <string name="action_edit">Editar</string>
+    <string name="action_create_style">Crear estilo de icono</string>
+    <string name="err_battery_already_ignored">¡Las optimizaciones de la batería ya se han ignorado! Puede continuar con el siguiente paso.</string>
+    <string name="msg_notification_switch_enable">Por favor, activa el interruptor junto a \"servicio de Status\".</string>
+    <string name="msg_battery_optimizations_switch_enable">Activa el interruptor de \"Status\". Puede que tengas que deslizar hacia abajo... mucho.</string>
+    <string name="msg_accessibility_switch_enable">Activa el servicio llamado \"servicio de Status\". Puede que tengas que deslizar hacia abajo hasta que aparezca.</string>
+    <string name="preference_side_padding">Relleno lateral</string>
+    <string name="preference_side_padding_desc">Útil para evitar que los iconos se corten a los lados de la pantalla en dipositivos con bordes curvos.</string>
+    <string name="preference_default_color_text">Color de texto</string>
+    <string name="preference_height">Altura de la barra de Status</string>
+    <string name="preference_height_desc">Esta configuración cambiará la altura de la barra de Status, pero no su contenido. Al establecer esto en 0, Status usará la altura por defecto del sistema.</string>
+    <string name="preference_bump_mode">Modo distorsión</string>
+    <string name="preference_bump_mode_desc">Crea una \"distorsión\" simulada en la cámara (realmente feo) alrededor de los elementos alineados en el centro en la barra. Por favor, no actives nunca esta opción.</string>
+    <string name="preference_text_effect">Estilo de texto</string>
+    <string name="icon_battery_alert">Alerta</string>
+    <string name="icon_battery_full">Llena</string>
+    <string name="icon_battery_charging_full">Llena (en carga)</string>
+    <string name="icon_battery_charging_75_90">Carga de 75% a 90%</string>
+    <string name="icon_battery_charging_60_75">Carga de 60% a 75%</string>
+    <string name="icon_battery_charging_45_60">Carga de 45% a 60%</string>
+    <string name="icon_battery_charging_30_45">Carga de 30% a 45%</string>
+    <string name="icon_battery_charging_15_30">Carga de 15% a 30%</string>
+    <string name="icon_battery_charging_0_15">Carga de 0% a 15%</string>
+    <string name="icon_network_no_connection">Sin conexión</string>
+    <string name="icon_network_1_bar">1 barra</string>
+    <string name="icon_network_2_bars">2 barras</string>
+    <string name="icon_network_3_bars">3 barras</string>
+    <string name="icon_network_4_bars">4 barras</string>
+    <string name="icon_wifi_no_signal">Sin conexión</string>
+    <string name="icon_wifi_1_bar">1 barra</string>
+    <string name="icon_wifi_2_bars">2 barras</string>
+    <string name="icon_wifi_3_bars">3 barras</string>
+    <string name="icon_wifi_4_bars">4 barras</string>
+    <string name="icon_bluetooth_scanning">Buscando</string>
+    <string name="icon_bluetooth_connected">Conectado</string>
+    <string name="icon_gps_searching">Buscando</string>
+    <string name="icon_gps_fixed">Fijado</string>
+    <string name="icon_ringer_muted">En silencio</string>
+    <string name="icon_ringer_vibrate">En vibración</string>
+    <string name="icon_headphone_headphones">Auriculares</string>
+    <string name="icon_headphone_headset">Auriculares con micrófono</string>
+    <string name="icon_orientation_auto">Automático</string>
+    <string name="icon_orientation_portrait">Bloqueo vertical</string>
+    <string name="icon_orientation_landscape">Bloqueo horizontal</string>
+    <string name="icon_style_round">Redondo</string>
+    <string name="icon_style_dish2">Plato 2</string>
+    <string name="icon_style_satellite">Satélite</string>
+    <string name="icon_style_satellite_outline">Satélite destacado</string>
+    <string name="icon_style_front">Frente</string>
+    <string name="icon_style_propeller">Propulsor</string>
+    <string name="icon_style_pilot_hat">Casco de piloto</string>
+    <string name="icon_style_boxy">Cúbico</string>
+    <string name="icon_style_sideways">Oblicuo</string>
+    <string name="icon_style_bell">Campana</string>
+    <string name="tutorial_donate">¿Te gusta Status?</string>
+    <string name="tutorial_donate_desc">Status es de código abierto y gratis, sin ningún tipo de anuncios ni funciones de pago. Si quieres, puedes realizar una donación para apoyar al desarrollo de Status y aplicaciones similares.</string>
+    <string name="text_effect_none">Ninguno</string>
+    <string name="text_effect_bold">Negrita</string>
+    <string name="text_effect_italic">Cursiva</string>
+    <string name="text_effect_bold_italic">Negrita cursiva</string>
+    <string name="font_default">Por defecto</string>
+    <string name="icons8_icons_desc">57.700 iconos planos gratis en cualquier formato, tamaño y color en 20 segundos.</string>
+
+    <!-- Untranslatable Strings -->
+    <string name="opnay_name">Kim Inseop</string>
+    <string name="alsidi_name">Marwan ALsidi</string>
+
+    <!-- untranslated strings -->
+    <string name="opnay_desc">Android developer, translated the app into Korean :D</string>
+    <string name="preference_transparent_mode">Transparent Mode</string>
+    <string name="preference_transparent_mode_desc">Enables the alpha/transparency sliders for the background color-related settings. Keep in mind that the original status bar will be visible behind this one; the only time this option might be useful is if you disable all status bar icons using SystemUI tuner and turn off \"Resource-Based Colors\".</string>
+    <string name="step_continue">Continue</string>
+    <string name="step_finish">Finish</string>
+    <string name="step_cancel">Cancel</string>
+    <string name="icon_style_pin">Pin</string>
+    <string name="icon_style_earbuds">Earbuds</string>
+    <string name="step_skip">Skip</string>
+    <string name="service_desc_short">Status uses this accessibility service to detect screen updates and notifications on older devices.</string>
+    <string name="service_desc_long"><![CDATA[Status allows users to customize their status bar for better readability, aesthetic, or functionality, allowing them easier and faster use of their devices. \n\nStatus requires this accessibility service to detect the current app that is displaying on the screen in order to adapt to its color scheme and layout. It also uses this service to listen for notifications on older devices that do not have the NotificationListenerService API.]]></string>
+    <string name="majida_desc">Created Chinese translations for this app.</string>
+    <string name="preference_prevent_icon_overlap">Prevent Icon Overlap</string>
+    <string name="preference_prevent_icon_overlap_desc">Prevents icon \"sections\" from overlapping each other when there are too many icons displaying at once. This setting will cause battery drain with too many updates (music player notifications can be particularly taxing, especially if they update once every second), so be careful with it.</string>
+    <string name="tutorial_too_many_icons">Running Out Of Space?</string>
+    <string name="tutorial_too_many_icons_desc">It appears that there are too many icons in the status bar and it doesn\'t have room to display them all. To prevent them from being cut off, you could enable the \"Prevent Overlap\" option in the settings or increase available space by reducing padding and icon scale.</string>
+    <string name="msg_missing_storage_permission">Please grant access to external storage in order to use this functionality.</string>
+    <string name="tutorial_missing_permissions">Missing Permissions</string>
+    <string name="tutorial_missing_permissions_desc">It appears that some of the permissions required by Status have not been granted. Without these permissions, some functionality may work incorrectly or be disabled. If you have already granted all the permissions and think that there may be an error, you can disable permission checking in the \'other\' section of the settings menu.</string>
+    <string name="preference_ignore_permission_checking">Ignore Permission Checking</string>
+    <string name="preference_ignore_permission_checking_desc">Only enable this if you are sure that all permissions have been granted and you know what you are doing! This can cause significant problems if used incorrectly.</string>
+    <string name="preference_blocked_apps">Blocked Apps</string>
+    <string name="preference_min_priority">Minimum Priority Level</string>
+    <string name="preference_ignore_persistent_notifications">Ignore Persistent Notifications</string>
+    <string name="msg_show_individual_screens">Show %1$d individual screens…</string>
+    <string name="action_gplus">Google+</string>
+    <string name="action_dribbble">Dribbble</string>
+    <string name="action_twitter">Twitter</string>
+    <string name="action_github">GitHub</string>
+    <string name="icons8_icons">Icons8</string>
+    <string name="alsidi_desc">Translated the app into Arabic.</string>
+    <string name="section_colors">Colors</string>
+    <string name="section_icons">Icons</string>
+    <string name="section_animations">Animations</string>
+    <string name="section_notifications">Notifications</string>
+    <string name="preference_icon_color_light">Icon Color (Light)</string>
+    <string name="preference_icon_color_dark">Icon Color (Dark)</string>
+    <string name="preference_text_color_light">Text Color (Light)</string>
+    <string name="preference_text_color_dark">Text Color (Dark)</string>
+    <string name="section_other">Other</string>
+    <string name="preference_text_font">Text Font</string>
+    <string name="preference_default_color_icon_dark">Default (Dark) Icon Color</string>
+    <string name="preference_default_color_text_dark">Default (Dark) Text Color</string>
+    <string name="alpha">Alpha</string>
+    <string name="dialog_preference_fullscreen">Fullscreen</string>
+    <string name="dialog_preference_fullscreen_ignore">Ignore Auto-Detection</string>
+    <string name="preference_ui_dark_theme">UI Dark Theme</string>
+    <string name="preference_ui_dark_theme_desc">A dark theme for Status\'s settings UI to make it a little easier on the eyes.</string>
+    <string name="msg_restart_for_changes">Restart the app to apply the changes.</string>
+    <string name="preference_color_icon">Icon Color</string>
+    <string name="preference_color_text">Text Color</string>
+    <string-array name="faq">
+        <item>
+            <b>Why can\'t the status bar be transparent?</b>
+            <p>
+                \nThis app works by making an overlay on top of the existing status bar, similar to how chat bubbles or a
+                screen dimming app would work. This means that if it is made transparent, the system icons would be visible
+                underneath it.
+            </p>
+        </item>
+        <item>
+            <b>How can I prevent lag?</b>
+            <p>
+                \nLag can be prevented mostly by minimizing the amount of times the status bar has to update. This can be done
+                by disabling animations, resourced-based colors, and removing any icons that aren\'t completely necessary for
+                the status bar to function.
+            </p>
+        </item>
+        <item>
+            <b>The status bar uses the wrong color for my app.</b>
+            <p>
+                \nStatus cannot detect color changes that happen after a screen is opened, only preset colors. This can make the
+                colors of some apps slightly inaccurate, so it is recommended to set a neutral color for screens that can have
+                multiple primary colors. For developers: Status mainly uses the \'R.attr.colorPrimaryDark\' or
+                \'R.color.colorPrimaryDark\' resources to get the colors.
+            </p>
+        </item>
+        <item>
+            <b>The status bar isn\'t showing notification icons.</b>
+            <p>
+                \nFirst, check that you have the \'show notifications\' option in the \'settings\' tab enabled. Then open the setup
+                screen (three dots -> setup). If you are running android 4.3 or higher, click on \'compatibility mode\' and turn
+                on the switch at the bottom. If compatibility mode is already enabled, turning it off sometimes fixes the issue
+                as well. Another useful thing to note is that sometimes clearing the app data can help fix issues similar to
+                this one.
+            </p>
+        </item>
+        <item>
+            <b>The status bar doesn\'t remove notifications until the notification panel is opened.</b>
+            <p>
+                \nIf you are running android 4.3 or higher, open the setup screen (three dots -> setup),
+                click on \'compatibility mode\', and make sure it is not enabled. If you\'re below android
+                4.3, this issue is due to a limitation of android and this is (unfortunately) the best I can do to support
+                your device at the moment.
+            </p>
+        </item>
+        <item>
+            <b>Why isn\'t the top part of my wallpaper aligned on the home screen?</b>
+            <p>
+                \nIf the \'transparency on home screen\' option is enabled, the app will get a static image of the wallpaper
+                and set it as the status bar\'s background whenever you are on your home screen. This can create a few issues with
+                scrolling wallpapers, as it isn\'t possible to detect the current page of the home screen. If you are using a custom
+                launcher, it\'s usually pretty easy to prevent the wallpaper from scrolling in the launcher\'s settings menu, but
+                otherwise the only option you really have is to disable the transparency setting. It can also be affected by shadows
+                at the top and bottom of the screen and devices that don\'t natively support the ability to have a transparent status bar.
+            </p>
+        </item>
+        <item>
+            <b>Why is the status bar showing the wrong wallpaper on my home screen?</b>
+            <p>
+                \nThe \'transparency on home screen\' option does not currently have support for live wallpapers - it will simply get the most
+                recent image wallpaper instead.
+            </p>
+        </item>
+        <item>
+            <b>My phone is dual sim, but it doesn\'t show the second signal strength icon.</b>
+            <p>
+                \nStatus does not currently support dual sim as it works differently on almost every device and is difficult to implement. This
+                is being worked on, however, and the app will be updated as soon as it is stable.
+            </p>
+        </item>
+        <item>
+            <b>Why isn\'t the status bar visible on the lockscreen?</b>
+            <p>
+                \nOn some devices, it is not possible to show the status bar over the system lock screen because of a potential security issue. A
+                possible solution could be downloading a third party lock screen from the play store or just disabling the system lock screen.
+            </p>
+        </item>
+        <item>
+            <b>How do you change the time format?</b>
+            <p>
+                \nThe clock format can be changed through the \'time format\' option for the clock icon. The clock will replace certain
+                characters inputted into the dialog with the associated variables, for example to show the time in a 24 hour format you
+                would input \"HH:MM\", or to show the AM/PM indicator \"h:mm a\".
+            </p>
+        </item>
+        <item>
+            <b>Why isn\'t the notification panel themed?</b>
+            <p>
+                \nThe notification panel would take a lot of time to complete, and I feel it would be a better use of time to improve the speed
+                and stability of the status bar before adding any more significant features, but that\'s not to say that it won\'t be added in
+                the future.
+            </p>
+        </item>
+        <item>
+            <b>Status isn\'t affected by my screen dimming app.</b>
+            <p>
+                \nIn order to be shown over the status bar, Status needs to be drawn \'on top of\' everything else as well. This includes system
+                overlays from other apps, including screen dimmers or chat bubbles.
+            </p>
+        </item>
+    </string-array>
+
+</resources>
